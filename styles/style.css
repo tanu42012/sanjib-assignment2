@@ -1,0 +1,69 @@
+.display-flex{
+    display: flex;
+}
+
+.nav-container{
+    display: flex;
+    justify-content:space-between;
+}
+.nav-manu > ul > li{
+    display: flex;
+}
+.ul-manu{
+    display: flex;
+    gap: 1.8rem;
+}
+.nav-title{
+    display: flex;
+ margin: 0 60px;
+    
+}
+ .home{
+    color: blue;
+ }
+ .about{
+    color: blueviolet;
+ }
+.facilities{
+    color: brown;
+}
+.admission{
+   color: lightseagreen;
+}
+.btn-primary{
+    background-color:  #FF900E;
+    color: white;
+    padding: 20px 25px;
+    font-size: .8rem;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    margin-right: 60px;
+}
+.banner-container{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-evenly
+}
+.empowering{
+    color:  #FF900E;
+    font-size: 2.5rem;
+}
+.age{
+    color: blue;
+    font-size: 2.5rem; 
+}
+.student{
+    color: black;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.sec-btn{
+    background-color:black;
+    color: white;
+    padding: 20px 25px;
+    font-size: .8rem;
+    font-weight: 600;
+    border-radius: 10px;
+
+}
