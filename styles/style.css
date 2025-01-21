@@ -122,20 +122,24 @@
 }
 .container{
     display: flex;
-    gap: 20px;
+    gap: 10px;
+   
 }
 .subcontainer-1{
     border: 2px solid blue;
     border-radius: 10px;
+    padding: 10px;
 }
 .subcontainer-2{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 10px;
+    padding: 10px;
 }
 .card{
     border: 2px solid lightgrey;
     border-radius: 10px;
+    padding: 5px;
 }
 .third-btn{
     margin: 50px 100px;
