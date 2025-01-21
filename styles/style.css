@@ -74,7 +74,7 @@
     font-weight: 700;
 }
 .bg-color{
-    background-color: aqua;
+ background-color: aqua;
 }
 .card-1{
     border: 2px solid blue;
@@ -85,7 +85,7 @@
 .card-2{
     order: 2px solid blue;
     border-radius: 10px;
-    background-color: blueviolet;
+   background-color: blueviolet;
 
 }
 .card-3{
@@ -107,4 +107,27 @@
 }
 .btn-middle{
     color: green
+}
+/* our stories section */
+.stories{
+    font-weight: 800;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.container{
+    display: flex;
+    gap: 20px;
+}
+.subcontainer-1{
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+.subcontainer-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.card{
+    border: 2px solid lightgrey;
+    border-radius: 10px;
 }
