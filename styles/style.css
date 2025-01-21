@@ -133,7 +133,7 @@
     border-radius: 10px;
 }
 .third-btn{
-    margin: 50px;
+    margin: 50px 100px;
     background-color:black;
     color: white;
     padding: 20px 25px;
@@ -142,9 +142,23 @@
     border-radius: 10px;
     
     text-align: center;
+
+}
+.year{
+    border: 1px solid blue;
+    background-color: blueviolet;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
     
     
-    
+}
+.year-1{
+    border: 1px solid blue;
+    background-color: green;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
 
 }
 /* footer section */
@@ -161,7 +175,7 @@
     
     display: flex;
     justify-content:space-around;
-    /* text-align: center; */
+   
   
    
 }
