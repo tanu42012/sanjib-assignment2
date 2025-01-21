@@ -221,6 +221,9 @@
   .school-title {
     display: none;
   }
+  .nav-title {
+    margin-left: -10px;
+  }
   /* standard curriculum responsive  for small device*/
   .card-container{
     flex-direction: column;
