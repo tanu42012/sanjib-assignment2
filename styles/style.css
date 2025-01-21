@@ -18,6 +18,9 @@
  margin: 0 60px;
     
 }
+.school-title{
+    color: black;
+}
  .home{
     color: blue;
  }
@@ -199,4 +202,44 @@
 .school, .touch{
     color: white;
 }
+/* header section responsive for small device */
+@media screen and  (max-width:576px) {
+    
+    
 
+  .banner-container{
+    flex-direction: column-reverse;
+  }
+  .sec-btn{
+    margin: 0 auto;
+    text-align: center;
+  }
+  .ul-manu,
+  .btn-primary{
+    display:none;
+  }
+  .school-title {
+    display: none;
+  }
+  /* standard curriculum responsive  for small device*/
+  .card-container{
+    flex-direction: column;
+  }
+  /* our story section responsive for small device */
+.container{
+  flex-direction: column;
+  
+  }
+  .subcontainer-2{
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    margin: 0 auto;
+  }
+  /* footer section responsive for small device */
+  .footer-container{
+    flex-direction: column;
+  }
+  .kids{
+    margin-left: -200px;
+  }
+}
