@@ -223,6 +223,9 @@
   }
   .nav-title {
     margin-left: -10px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid;
+    width: 100%;
   }
   /* standard curriculum responsive  for small device*/
   .card-container{
