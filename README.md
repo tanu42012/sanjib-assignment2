@@ -6,7 +6,7 @@
 
 ## 🌐 Live Demo
 
-🔗 [View Live Site](https://your-live-link.com)
+🔗 [View Live Site]( https://tanu42012.github.io/sanjib-assignment2/)
 
 > Replace the link with your actual deployed site (e.g., GitHub Pages, Netlify, or Vercel).
 
